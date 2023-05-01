@@ -1,0 +1,141 @@
+*{
+    text-decoration:none; 
+    list-style:none; 
+    margin:0px; 
+    padding:0px; 
+    outline:none;
+}
+
+body{
+    margin:0px; 
+    padding:0px; 
+    font-family: 'Open Sans', sans-serif;
+}
+/*section{
+    width:100%;
+    max-width:1200px; 
+    margin:0px auto; 
+    display:table; 
+    position:relative;
+}*/
+/*header{
+    width:100%; 
+    display:table; 
+    background-color:#4e342e ; 
+    margin-bottom:50px;
+}*/
+
+
+.nav1{
+    background-color:#634c47 ;
+    width: 100%;
+
+}
+
+nav{
+    width:auto; 
+    float:right;
+    background-color:#634c47 ;
+}
+nav ul{
+    display:table; 
+    float:right;
+}
+nav ul li{
+    float:left;
+}
+/*nav ul li:last-child{
+    padding-right:0px;
+}*/
+nav ul li a{
+    color:aliceblue;
+    font-size:18px; 
+    padding: 25px 20px; 
+    display:inline-block; 
+   /* transition: all 0.5s ease 0s;*/
+}
+nav ul li a:hover{
+    background-color:#634c47 ; 
+    color:#fde428; 
+    /*transition: all 0.5s ease 0s;*/
+}
+nav ul li a:hover i{
+    color:#fde428; 
+    /*transition: all 0.5s ease 0s;*/
+}
+
+.icono {
+    width: 20px;
+    height: 20px;
+
+}
+
+
+#logo-container{
+    margin-left: 300px;
+}
+
+/*#logo{
+    float:left; 
+    font-size:24px; 
+    text-transform:uppercase; 
+    color:aliceblue; 
+    font-weight:600; 
+    padding:20px 0px;
+}
+*/
+/* .slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;  
+     
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+  
+    
+    scroll-snap-align: center;
+  } */
+
+.slider {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+.slider ul {
+    display: flex;
+    padding: 0px;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+
+  }
+
+.slider li {
+    width: 100%;
+    list-style: none;
+  }
+
+.slider img {
+    width: 100%;
+}  
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
