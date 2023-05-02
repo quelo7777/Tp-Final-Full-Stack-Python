@@ -40,6 +40,7 @@ nav{
 nav ul{
     display:table; 
     float:right;
+    margin-right: 15%;
 }
 nav ul li{
     float:left;
@@ -49,8 +50,8 @@ nav ul li{
 }*/
 nav ul li a{
     color:aliceblue;
-    font-size:18px; 
-    padding: 25px 20px; 
+    font-size:1.3em; 
+    padding: 1.3em 1em; 
     display:inline-block; 
    /* transition: all 0.5s ease 0s;*/
 }
@@ -67,12 +68,12 @@ nav ul li a:hover i{
 .icono {
     width: 20px;
     height: 20px;
-
+    padding: 70% 10px;
 }
 
 
 #logo-container{
-    margin-left: 300px;
+    margin-left: 15%;
 }
 
 /*#logo{
@@ -138,4 +139,15 @@ nav ul li a:hover i{
 
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
+}
+
+footer {
+    background-color: #634c47;
+    width: 100%;
+}
+.container {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+
 }
