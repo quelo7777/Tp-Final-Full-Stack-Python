@@ -27,20 +27,23 @@ body{
 
 
 .nav1{
-    background-color:#634c47 ;
+    background-color:#4e342e;
     width: 100%;
+    height: 4em;
 
 }
 
 nav{
     width:auto; 
     float:right;
-    background-color:#634c47 ;
+    background-color:#4e342e;
+    position: fixed;
 }
 nav ul{
     display:table; 
     float:right;
     margin-right: 15%;
+
 }
 nav ul li{
     float:left;
@@ -50,13 +53,13 @@ nav ul li{
 }*/
 nav ul li a{
     color:aliceblue;
-    font-size:1.3em; 
+    font-size:1rem; 
     padding: 1.3em 1em; 
     display:inline-block; 
    /* transition: all 0.5s ease 0s;*/
 }
 nav ul li a:hover{
-    background-color:#634c47 ; 
+    background-color:#4e342e; 
     color:#fde428; 
     /*transition: all 0.5s ease 0s;*/
 }
@@ -66,9 +69,9 @@ nav ul li a:hover i{
 }
 
 .icono {
-    width: 20px;
-    height: 20px;
-    padding: 70% 10px;
+    width: 1rem;
+    height: 1rem;
+    /* padding: 70% 10px; */
 }
 
 
@@ -142,7 +145,7 @@ nav ul li a:hover i{
 }
 
 footer {
-    background-color: #634c47;
+    background-color: #4e342e;
     width: 100%;
 }
 .container {
