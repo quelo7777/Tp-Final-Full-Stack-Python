@@ -189,9 +189,44 @@ color: #5d4037;
     border-bottom-width: 2px;
     border-bottom-color: gray;*/
     display: flex;
-    text-align: center;
+    /*text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
     
     
   }
+  .nosotros-contenido-imagen {
+    width: 50%;
+    height: 100%;
+    /*margin: 270px 15% 10px 15%;*/
+    /*background-color: blue;*/
+    position: relative;
+    border: 1px solid gray;
+    /*border-bottom-width: 2px;
+    border-bottom-color: gray;*/
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: left;    
+  }
+
+  .nosotros-contenido-texto {
+    width: 50%;
+    height: 100%;
+    /*margin: 270px 15% 10px 15%;*/
+    /*background-color: blue;*/
+    position: relative;
+    border: 1px solid gray;
+    /*border-bottom-width: 2px;
+    border-bottom-color: gray;*/
+    display: flex;
+    text-align: center;
+    align-items: top;
+    justify-content: center;    
+  }
+
+.img_nosotros{
+width: 420px;
+height: fit-content;
+  }
+
