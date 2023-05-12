@@ -191,9 +191,9 @@ footer {
     color: aliceblue;
 }
 
-.ficha2 .container{
+.ficha2 {
     width: 100%;
-    background-color: #3b2723;
+    background-color: #3e2723;
     color: aliceblue;
     font-size: 18px;
 }
