@@ -178,6 +178,7 @@ color: #5d4037;
   }
 
   .nosotros-contenido {
+    box-shadow: 0 0 0.5rem RGB( 83 78 73 / 70% );
     width: 70%;
     height: 400px;
     margin: 270px 15% 10px 15%;
@@ -189,20 +190,19 @@ color: #5d4037;
     width: 45%;
     height: 100%;
     position: relative;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     float: left;
-    background-color: lightgrey;
   }
 
   .nosotros-contenido-texto {
     width: 55%;
     height: 100%;
     position: relative;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     float: right;
   }
 
-.img_nosotros{
+.animate__animated{
   width: 100%;
   height: 100%; 
   }
