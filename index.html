@@ -1,112 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/logotipo.png">
-    <title>Eiffel Boulangerie</title>
 </head>
-<body>
-    <!-- COMIENZO NAV -->
-    <div class="navbar">
+<body class="grid">
+    <header class="header" >
         <nav class="nav1">
-            <div ><a id="logo-container" href="index.html" class="brand-logo"><img class="" id="logo" src="img/logo_white.png" alt=""></a>
-                <ul class="right hide-on-med-and-down">
+          <a id="logo-container" href="index.html" class="brand-logo"><img class="" id="logo" src="img/logo_white.png" alt=""></a>
+            <div class="div2"> <ul class="right hide-on-med-and-down ul">
                     <li class="active"><a href="index.html" >Inicio</a></li>
                     <li><a href="productos.html" >Productos</a></li>
                     <li><a href="nosotros.html" >Nosotros</a></li>
                     <li><a href="contacto.html" >Contacto</a></li>
-
                     <li><a href="https://www.facebook.com/"><img src="img/facebook-solid.svg" alt="iconos" class="icono"></a></li>
                     <li><a href="https://twitter.com/?lang=es"><img src="img/twitter-solid.svg" alt="iconos" class="icono"></a></li>
                     <li><a href="https://ar.pinterest.com/"><img src="img/pinterest-solid.svg" alt="iconos" class="icono"></a></li>
                     <li><a href="https://www.youtube.com/"><img src="img/youtube.svg" alt="iconos" class="icono"></a></li>
                 </ul>
+         
             </div>
         </nav>
-    </div>
-    <!-- FIN NAV -->
+    </header>
+    <main class="main" >
+        <div class="slider">
+            <ul>
+                <li><img src="img/slider_principal_1.png" alt=""></li>
+                <li><img src="img/slider_principal_2.png" alt=""></li>
+                <li><img src="img/slider_principal_3.png" alt=""></li>
+                <li><img src="img/slider_principal_4.png" alt=""></li>
+            </ul>
+        </div>
     
-    <div class="slider">
-        <ul>
-            <li><img src="img/slider_principal_1.png" alt=""></li>
-            <li><img src="img/slider_principal_2.png" alt=""></li>
-            <li><img src="img/slider_principal_3.png" alt=""></li>
-            <li><img src="img/slider_principal_4.png" alt=""></li>
-        </ul>
-    </div>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <footer class="footer">
+       
+    </main>
+    <footer class="footer" ><footer class="footer">
         <div class="container ">
             <div class="pie-pagina">    
 
                 <div class="ficha">
-                    <div class="ficha1">
-                        <div class="cardtext">
-                            <span class="card">Historia</span>
-                            <br>
-                            <p > Una historia de amor por la cocina francesa.</p> <br>
-                            <p>Quisque egestas consequat mi. Aenean orci mauris, viverra sit amet tincidunt eget, facilisis id ligula.
-                                Curabitur sollicitudin ornare justo vel pretium.
-                                Aenean orci mauris, facilisis id ligula.</p>
-                            <br>
-                            <a href="nosotros.html" class="btn-floating"><i class="icons">add</i></a>
-                        </div>
-                    </div>
-                </div>
+                  
+                <!--</div>-->
 
-                <div class="ficha">
+                <!--<div class="ficha">-->   
                     <div class="ficha1">
-                        <div class="cardtext">
-                            <span class="card">Servicios</span>
-                            <br>
+                        <div>
+                            <h4><span class="card">Servicios</span></h4>
+                           
                             <p>Catering a eventos</p> 
-                            <br>
+                     
                             <p>Desayunos y meriendas</p> 
-                            <br>
+                     
                             <p>Reservas on-line</p> 
-                            <br>
+                       
                             <p>Cursos de cocina francesa</p>
                             <a href="contacto.html" class="btn-floating"><i class="icons">add</i></a>
                         </div>
                     </div>
-                </div>
+                <!--</div>-->
 
-                <div class="ficha">
+                <!--<div class="ficha">-->
                     <div class="ficha1">
                         <div class="cardtext">
-                            <span class="card">Ubicacion</span>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.460460700777!2d-58.56767568476918!3d-34.64307248044927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e5850fa1dd%3A0xd90656a5c3b4b6f9!2sAv.+de+Mayo+245%2C+B1704BUC+Ramos+Mej%C3%ADa%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1510981461986" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <h4><span class="card">Ubicacion</span></h4>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.460460700777!2d-58.56767568476918!3d-34.64307248044927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e5850fa1dd%3A0xd90656a5c3b4b6f9!2sAv.+de+Mayo+245%2C+B1704BUC+Ramos+Mej%C3%ADa%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1510981461986" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                             <p>Av. de Mayo al 245, Ramos Mejía, La Matanza</p> 
-                            <br>
-                            <p>(+5411)  4651-6238</p>
-                            <a href="https://www.google.com/maps?ll=-34.643072,-58.565487&z=15&t=m&hl=es-ES&gl=AR&mapclient=embed&q=Av.+de+Mayo+245+B1704BUC+Ramos+Mej%C3%ADa+Buenos+Aires" class="btn-floating"><i class="icons">add</i></a>
+                    
+                            <p>(+54) 11 4651-6238</p>
+                            <!--<a href="https://www.google.com/maps?ll=-34.643072,-58.565487&z=15&t=m&hl=es-ES&gl=AR&mapclient=embed&q=Av.+de+Mayo+245+B1704BUC+Ramos+Mej%C3%ADa+Buenos+Aires" class="btn-floating"><i class="icons">add</i></a>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="ficha2">
-            <div class="container">
+            <div class="container2">
                 © Eiffel Boulangerie 2023. Todos los derechos reservados.
             </div>
         </div>
-    </footer>
+    </footer></footer>
 </body>
 </html>
