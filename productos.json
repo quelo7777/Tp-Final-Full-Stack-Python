@@ -1,0 +1,14 @@
+[
+    {"id": 1, "title": "Baguette", "price":1 , "img": "./img/productos/Baguette.jpg" },
+    {"id": 2, "title": "Brioche", "price": 3, "img": "./img/productos/Brioche.jpg" },
+    {"id": 3, "title": "Brioche Dolce", "price":3.5 , "img": "./img/productos/Briochedolce.jpg" },
+    {"id": 4, "title": "Cookies", "price":2 , "img": "./img/productos/Cookies.jpg" },
+    {"id": 5, "title": "Croissant", "price": 5, "img": "./img/productos/Croissant.jpg" },
+    {"id": 6, "title": "Croissantaux", "price": 6, "img": "./img/productos/Croissantaux.jpg" },
+    {"id": 7, "title": "Cupcakes", "price": 3, "img": "./img/productos/Cupcakes.jpg" },
+    {"id": 8, "title": "Focaccia", "price": 5, "img": "./img/productos/Focaccia.jpg" },
+    {"id": 9, "title": "Pain Au Chocolat", "price":8 , "img": "./img/productos/Painauchocolat.jpg" },
+    {"id": 10, "title": "Pan de Campo", "price": 10, "img": "./img/productos/Pandecampo.jpg" },
+    {"id": 11, "title": "Pan de Centeno", "price": 11, "img": "./img/productos/PandeCenteno.jpg" },
+    {"id": 12, "title": "Pan de Salvado", "price": 9, "img": "./img/productos/Pandesalvado.jpg" }
+]
