@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/logotipo.png">
+    <script type="text/javascript" src="validacion.js"></script>
     <title>Eiffel Boulangerie</title>
+    
 </head>
 <body class="grid">
     <header class="header" >
@@ -30,6 +33,68 @@
     
     
     <main class="main">
+        <div class="container1">
+        <div class="section"> 
+
+            <div class="col">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card-panel">
+                            <span class="white-text center"><h3 class="brown-text">Contacto</h3>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="container1">
+                    <div class="row">
+                        <article class="col s6 offset-s3">
+                            <form action="#" name="form" id="form" onsubmit="return validar()">
+                                <div class="campo">
+                                    <i id="icono" class="material-icons">perm_identity</i>
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" id="nombre" name="nombre">
+                                </div>
+
+                                <div class="campo">
+                                    <i id="icono" class="material-icons">person_pin</i>
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" id="apellido" name="apellido">
+                                </div>
+
+                                <div class="campo">
+                                    <i id="icono" class="material-icons">email</i>
+                                    <label for="email">Email</label>
+                                    <input class="email" type="text" id="email" name="email">
+                                </div>
+
+                                <div class="campo">
+                                    <i id="icono" class="material-icons">phone</i>
+                                    <label for="telefono">Telefono</label>
+                                    <input type="telefono" id="telefono" name="telefono">
+                                </div>
+
+                                <div class="campo">
+                                    <i id="icono" class="material-icons">mode_edit</i>
+                                    <label for="mensaje">Mensaje</label>
+                                    <textarea name="textarea" id="textarea" class="materialize-textarea"  length="140" input type="textarea" id="textarea" name="textarea"></textarea>
+                                </div>
+
+                                
+                                    <input type="submit" value="Enviar" class="waves-effect waves-light btn deep-orange darken-3" >
+                              
+                                
+                            <div id="mensajes" class="error">
+
+                            </form>
+
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
 
     </main>
 
