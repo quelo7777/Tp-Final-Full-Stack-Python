@@ -5,6 +5,21 @@
     padding:0px; 
     outline:none;
 }
+              
+              
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+            
+          
 .grid{
     font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
@@ -234,9 +249,10 @@ input,textarea{
   line-height: 36px;
   padding: 0 2rem;
   color: #fff;
-  background-color: #d84315 !important;
+  background-color: #795548 !important;
   }
 
+  
 
 
 .card-panel {
