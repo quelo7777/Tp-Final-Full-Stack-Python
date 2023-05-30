@@ -195,8 +195,12 @@ body {
   
   
 }
-
-
+p{
+  font-family: Helvética LT Std Light;
+}
+a, h1, h2, h3, h4{
+  font-family:Bodoni Bk BT    ;
+}
 
 
 
